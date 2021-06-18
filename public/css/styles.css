@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  body {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .wrapper {
+    max-width: 1024px;
+    margin: auto;
+  }
+
+  .wrapper b {
+    vertical-align: text-top;
+    font-size: 12px;
+  }
+
+  .fa-registered {
+    font-size: 10px;
+  }
+
+  .header_top {
+    color: rgb(255, 255, 255);
+    background-color: #2a83f1;
+  }
+  
+  .header_top .wrapper {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  nav .wrapper {
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    justify-content: space-between;
+  }
+  
+  nav .wrapper ul li {
+    display: inline-block;
+    border-bottom: 2px solid transparent;
+    padding: 5px;
+  }
+
+  nav .wrapper ul li a {
+    font-size: 13px;
+    width: 100%;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  
+  nav .wrapper ul li a i {
+    color: #2a83f1;
+  }
+  
+  nav .wrapper .search {
+    position: relative;
+  }
+  
+  nav .wrapper .search input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #2a83f1;
+
+  }
+
+  nav .wrapper .search .text_search {
+    text-align: right;
+    padding-right: 19px;
+  }
+  
+  nav .wrapper .search i {
+    position: absolute;
+    cursor: pointer;
+    right: 0;
+  }
+
+  nav .wrapper ul li:hover {
+    border-color: #2a83f1;
+  }
+  
+  nav .wrapper ul li:hover a {
+    color: #144a8c;
+  }
+
+  nav .wrapper .img_logo {
+    height: 60px;
+    width: 70px;
+  }
+
+  .header_top .wrapper h4 {
+    font-size: 15x;
+    font-weight: 700;
+    padding: 10px 30px;
+  }
+
+  nav .wrapper .img_logo img {
+    width: 90%;
+  }
