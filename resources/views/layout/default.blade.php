@@ -13,6 +13,10 @@
         @include('partials/header')
     </header>
 
+    <main>
+    @include('partials/main')
+    </main>
+
 
     <footer>
         @include('partials/footer')

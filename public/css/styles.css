@@ -200,3 +200,19 @@
     color: rgb(64, 111, 17);
     font-weight: 100;
   }
+
+  /* main */
+  .img_main_top img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .img_main_top {
+    height: 100%;
+
+  }
+  
+  .main_top {
+    height: 235px;
+  }
