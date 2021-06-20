@@ -35,7 +35,7 @@
                     </ul>
                 </div>
                 <div class="foot_list">
-                    <h4>SITES</hh4>
+                    <h4>SITES</h4>
                     <ul>
                         <li><a href="">DC</a></li>
                         <li><a href="">MAD Magazine</a></li>
