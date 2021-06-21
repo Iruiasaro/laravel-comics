@@ -13,12 +13,23 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/index', function () {
     $datiComics = config("comics");
 
     $datiView = [
         "comics" => $datiComics,
     ];
-    
+
     return view('index', $datiView);
+});
+
+
+Route::get('/fumetto', function () {
+    $datiComics = config("comics");
+
+    $datiView = [
+        "comics" => $datiComics,
+    ];
+
+    return view('fumetto', $datiView);
 });

@@ -9,17 +9,18 @@
     <title>@yield('index_title')</title>
 </head>
 <body>
+
     <header>
         @include('partials/header')
     </header>
 
     <main>
-    @include('partials/main')
+        @yield('jumbotron')
     </main>
-
 
     <footer>
         @include('partials/footer')
     </footer>
+    
 </body>
 </html>
