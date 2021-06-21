@@ -45,7 +45,7 @@
                     </ul>
                 </div>
             </div>
-            <p>All Site Content TM and C 2020 DC Enterntainment, unless otherwise noted here. All rights reserved.<br><b>Cookies Settings</b>   </p>
+            <p>All Site Content TM and C 2020 DC Enterntainment, unless otherwise <span>noted here</span>. All rights reserved.<br></p> <span>Cookies Settings</span>
 
             <div class="back_img_footer_top">
                 <img src="./images/dc-logo-bg.png" alt="">
